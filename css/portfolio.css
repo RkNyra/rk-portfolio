@@ -5,13 +5,34 @@ body {
 #header {
     height: 10%;
     width: 100%;
-    background-color: black: display: inline-flex;
+    background-color: black;
+    display: inline-flex;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 7px;
-    top: 0;
-    position: -webkit-sticky;
-    position: sticky;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 37px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.nav {
+    font-size: 28px;
+    display: flex;
+    margin: auto;
+}
+
+.nav ul {
+    float: right;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
 }
 
 #contnt1 {
