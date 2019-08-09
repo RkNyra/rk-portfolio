@@ -70,6 +70,7 @@ figcaption {
 .about-me {
     width: fit-content;
     float: left;
+    height: inherit;
 }
 
 #content2 {
