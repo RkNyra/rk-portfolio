@@ -58,6 +58,11 @@ body {
     height: 340px;
 }
 
+figcaption {
+    font-weight: 300;
+    font-size: 18px;
+}
+
 #content2 {
     height: 100px;
     width: 100%;
