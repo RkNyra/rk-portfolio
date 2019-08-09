@@ -41,7 +41,7 @@ body {
 }
 
 #content1 {
-    height: 220px;
+    height: 340px;
     width: 100%;
     background-color: grey;
     display: inline-flex;
@@ -53,10 +53,13 @@ body {
     justify-content: space-between;
 }
 
-.class {}
+.rkpic img {
+    width: 45%;
+    height: 340px;
+}
 
 #content2 {
-    height: 220px;
+    height: 100px;
     width: 100%;
     background-color: grey;
     display: inline-flex;
