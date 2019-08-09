@@ -1,31 +1,31 @@
 body {
     background-color: rgb(245, 234, 222);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 550px;
 }
 
 #header {
-    height: 10%;
+    height: 55px;
     width: 100%;
     background-color: black;
     display: inline-flex;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 7px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     align-items: center;
     justify-content: space-between;
 }
 
 .name {
-    font-size: 37px;
+    font-size: 28px;
     font-weight: 700;
     text-align: center;
 }
 
 .nav {
-    font-size: 28px;
+    font-size: 21px;
     display: flex;
-    margin: auto;
 }
 
 .nav ul {
@@ -33,22 +33,50 @@ body {
     list-style-type: none;
     width: 100%;
     display: flex;
+    align-content: space-evenly;
 }
 
-#contnt1 {
-    height: 40%;
-    width: 100%;
-    background-color: white:
+.nav ul li {
+    padding: 2.4em;
 }
+
+#content1 {
+    height: 220px;
+    width: 100%;
+    background-color: grey;
+    display: inline-flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.class {}
 
 #content2 {
-    height: 40%;
+    height: 220px;
     width: 100%;
-    background-color: gray:
+    background-color: grey;
+    display: inline-flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #footer {
-    height: 10%;
+    height: 55px;
     width: 100%;
-    background-color: black:
+    background-color: black;
+    display: inline-flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
 }
