@@ -112,7 +112,12 @@ figcaption {
 }
 
 .project-links {
-    width: 70%;
+    height: 141px;
+    width: 150px;
+}
+
+.projectlinksimages {
+    height: 33%;
 }
 
 h1 {
