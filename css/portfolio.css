@@ -104,6 +104,17 @@ figcaption {
     justify-content: space-between;
 }
 
+.my-projects {
+    width: 30%;
+    font-size: 70px;
+    color: darkblue;
+    font-weight: 700;
+}
+
+.project-links {
+    width: 70%;
+}
+
 h1 {
     font-size: 33px;
     color: darkblue;
