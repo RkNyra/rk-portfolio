@@ -18,7 +18,7 @@ body {
 }
 
 .name {
-    font-size: 28px;
+    font-size: 33px;
     font-weight: 700;
     text-align: center;
 }
@@ -83,7 +83,8 @@ figcaption {
     float: left;
     height: inherit;
     align-content: center;
-    padding-left: 55px;
+    padding-left: 40px;
+    line-height: 19px;
 }
 
 #content2 {
@@ -97,6 +98,27 @@ figcaption {
     color: black;
     align-items: center;
     justify-content: space-between;
+}
+
+h1 {
+    font-size: 33px;
+    color: darkblue;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 24px;
+    color: darkblue;
+}
+
+h3 {
+    font-size: 20px;
+    color: darkblue;
+}
+
+p {
+    font-size: 17px;
+    color: darkblue;
 }
 
 #footer {
