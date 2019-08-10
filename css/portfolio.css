@@ -91,6 +91,10 @@ figcaption {
     line-height: 19px;
 }
 
+.longpgh1 {
+    line-height: 28px;
+}
+
 #content2 {
     height: 425px;
     width: 100%;
@@ -122,6 +126,14 @@ figcaption {
     width: 150px;
 }
 
+.project-links ul {
+    list-style-type: none;
+}
+
+.project-links ul li p {
+    display: flex;
+}
+
 h1 {
     font-size: 33px;
     color: darkblue;
@@ -145,6 +157,7 @@ p {
 
 li {
     color: darkblue;
+    line-height: 24px;
 }
 
 #footer {
