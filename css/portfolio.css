@@ -105,19 +105,21 @@ figcaption {
 }
 
 .my-projects {
-    width: 30%;
+    width: 45%;
     font-size: 70px;
     color: darkblue;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
 }
 
 .project-links {
-    height: 141px;
-    width: 150px;
+    width: 55%;
 }
 
 .projectlinksimages {
-    height: 33%;
+    height: 141px;
+    width: 150px;
 }
 
 h1 {
