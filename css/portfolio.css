@@ -43,7 +43,12 @@ body {
     color: white;
 }
 
-#content-1 {
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#aboutme {
     height: 550PX;
     width: 100%;
     background-color: white;
@@ -96,7 +101,7 @@ figcaption {
     line-height: 28px;
 }
 
-#content-2 {
+#myprojects {
     height: 425px;
     width: 100%;
     background-color: #f2f2f2;
@@ -146,6 +151,10 @@ figcaption {
     display: flex;
 }
 
+.project-content a {
+    text-decoration: none
+}
+
 h1 {
     font-size: 33px;
     color: darkblue;
@@ -172,7 +181,7 @@ li {
     line-height: 24px;
 }
 
-#content-3 {
+#mycontacts {
     height: 450px;
     width: 100%;
     background-color: white;
@@ -279,8 +288,4 @@ input[type=submit] {
     justify-content: center;
     font-style: italic;
     font-weight: 700;
-}
-
-a {
-    text-decoration: none;
 }
