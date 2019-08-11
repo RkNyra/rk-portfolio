@@ -276,7 +276,9 @@ input[type=submit] {
     padding-left: 7px;
     color: white;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    font-style: italic;
+    font-weight: 700;
 }
 
 a {
