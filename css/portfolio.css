@@ -54,7 +54,7 @@ body {
     background-color: white;
     display: inline-flex;
     padding-top: 73px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     color: black;
     align-items: center;
     justify-content: space-between;
@@ -106,8 +106,8 @@ figcaption {
     width: 100%;
     background-color: #f2f2f2;
     display: inline-flex;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     padding-left: 7px;
     color: black;
     align-items: center;
@@ -186,8 +186,8 @@ li {
     width: 100%;
     background-color: white;
     display: inline-flex;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     padding-left: 7px;
     color: #333;
     align-items: center;
