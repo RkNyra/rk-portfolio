@@ -39,7 +39,7 @@ body {
 }
 
 .nav ul li {
-    padding: 2.4em;
+    padding-right: 3em;
     color: white;
 }
 
@@ -49,9 +49,9 @@ body {
 }
 
 .nav ul li a:hover {
-    color: darkblue;
+    color: white;
     text-decoration: underline;
-    text-decoration-color: darkblue;
+    text-decoration-color: yellow;
     font-style: italic;
 }
 
@@ -230,7 +230,7 @@ input:focus {
 textarea {
     display: block;
     height: 100px;
-    width: 100%;
+    width: 98%;
     border-width: 2px;
     border-radius: 5px;
     border-color: #333;
