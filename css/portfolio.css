@@ -48,6 +48,13 @@ body {
     color: white;
 }
 
+.nav ul li a:hover {
+    color: darkblue;
+    text-decoration: underline;
+    text-decoration-color: darkblue;
+    font-style: italic;
+}
+
 #aboutme {
     height: 550PX;
     width: 100%;
@@ -288,4 +295,11 @@ input[type=submit] {
     justify-content: center;
     font-style: italic;
     font-weight: 700;
+}
+
+a:hover {
+    color: darkblue;
+    text-decoration: underline;
+    text-decoration-color: darkblue;
+    font-style: italic;
 }
