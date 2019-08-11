@@ -15,6 +15,8 @@ body {
     color: white;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
 }
 
 .name {
@@ -45,7 +47,7 @@ body {
 #content1 {
     height: 550PX;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: white;
     display: inline-flex;
     padding-top: 10px;
     padding-bottom: 50px;
@@ -98,7 +100,7 @@ figcaption {
 #content2 {
     height: 425px;
     width: 100%;
-    background-color: lightgray;
+    background-color: #f2f2f2;
     display: inline-flex;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -109,8 +111,8 @@ figcaption {
 }
 
 .my-projects {
-    width: 45%;
-    font-size: 70px;
+    width: 20%;
+    font-size: 30px;
     color: darkblue;
     font-weight: 700;
     display: flex;
@@ -118,7 +120,8 @@ figcaption {
 }
 
 .project-links {
-    width: 55%;
+    width: 80%;
+    margin-top: auto;
 }
 
 .projectlinksimages {
@@ -126,8 +129,18 @@ figcaption {
     width: 150px;
 }
 
+.project-content {
+    align-self: center;
+    margin-left: 20px;
+}
+
 .project-links ul {
     list-style-type: none;
+}
+
+.project-links ul li {
+    line-height: 20px;
+    display: flex;
 }
 
 .project-links ul li p {
@@ -152,11 +165,11 @@ h3 {
 
 p {
     font-size: 17px;
-    color: darkblue;
+    color: #333;
 }
 
 li {
-    color: darkblue;
+    color: #333;
     line-height: 24px;
 }
 
