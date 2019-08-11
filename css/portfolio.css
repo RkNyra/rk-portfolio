@@ -195,7 +195,7 @@ li {
 }
 
 .form {
-    width: 40%;
+    width: 30%;
     margin-left: 20px;
 }
 
@@ -230,7 +230,13 @@ label {
     font-size: 20px;
 }
 
+::placeholder {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
 input[type=submit] {
+    width: 100%;
     border-width: 2px;
     border-radius: 7px;
     border-color: blue;
@@ -241,7 +247,23 @@ input[type=submit] {
 }
 
 .my-social-network-links {
-    width: 35%;
+    width: 45%;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.social-icons {
+    height: 30px;
+    width: 30px;
+    margin-right: 12px;
+}
+
+.my-social-network-links-list {
+    margin-left: 150px;
 }
 
 #footer {
@@ -255,4 +277,8 @@ input[type=submit] {
     color: white;
     align-items: center;
     justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
 }
