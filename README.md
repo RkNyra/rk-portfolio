@@ -2,7 +2,7 @@
 #### My First Portfolio, August 2019
 #### By **Rhoda Kimanga (RK Nyra)**
 ## Description
-This is my first portfolio. I developed it as my one of my first web pages during the first stages of my programming class in Moringa School-Nairobi. 
+This is my first portfolio. I developed it as my one of my first web pages during the first stages of my programming class in Moringa School-Nairobi. You can view it <a href="https://rknyra.github.io/rk-portfolio/">here.</a>
 ## Setup/Installation Requirements
 * Text editer - I used Visual Studio
 * Github account
